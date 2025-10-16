@@ -55,7 +55,9 @@ Architecture Breakthrough
 Replacing Flatten() + Dense(256) with GlobalAveragePooling2D() reduced parameters by 99% while maintaining performance.
 
 Early Stopping Implementation
+
 python
+
 early_stop = EarlyStopping(
     monitor='val_accuracy',
     patience=3,
